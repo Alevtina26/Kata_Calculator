@@ -43,7 +43,7 @@ class Main {
 
     private static void checkDigitRange(int firstNumber, int secondNumber) {
         if (firstNumber < 1 || firstNumber > 10 || secondNumber < 1 || secondNumber > 10) {
-            throw new IllegalArgumentException("Диапазон чисел должен быть от 0 до 10.");
+            throw new IllegalArgumentException("Диапазон чисел должен быть от 1 до 10.");
         }
     }
 
